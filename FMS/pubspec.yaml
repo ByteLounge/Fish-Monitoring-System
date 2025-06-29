@@ -1,0 +1,34 @@
+name: smart_aquarium
+description: A smart aquarium management Flutter app with YOLOv8 + ESP32 integration.
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.17.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Camera & stream
+  camera: ^0.10.0+1
+  mjpeg: ^0.1.2
+
+  # TFLite + helpers
+  tflite_flutter: ^0.10.0
+  tflite_flutter_helper: ^0.4.0
+
+  # Image processing
+  image: ^3.2.2
+
+  # Networking
+  http: ^0.13.4
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/best.tflite
