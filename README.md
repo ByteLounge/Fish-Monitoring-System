@@ -131,6 +131,18 @@ flutter run
 - Integrate cloud detection API for better scalability
 - Add OTA updates for ESP32
 - Implement advanced alert system (SMS / email)
-```
 
 ---
+
+Circuit outline
+
+![circuit outline](https://github.com/user-attachments/assets/388d0720-fc29-4f49-b6e2-b4ed3c6afafe)
+
+---
+
+Prototype Image
+
+![ChatGPT Image Jun 29, 2025, 01_47_16 PM](https://github.com/user-attachments/assets/cf494f44-c472-45ae-9333-b12630e216f2)
+
+---
+
